@@ -236,3 +236,8 @@ a{
 /* Fine del main */
 
 /* Footer */
+
+footer{
+  background-color: black;
+  color: white;
+}
