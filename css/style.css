@@ -7,11 +7,9 @@ body{
   margin: 20px 0;
 }
 
-
-
-
-
-
+.margin_y40{
+  margin: 40px 0;
+}
 
 
 /* Inizio header */
@@ -27,6 +25,11 @@ header{
 
 header a {
   color: black;
+}
+
+.layover{
+  height: 500px;
+  background-color: rgba(0,0,0,0.5);
 }
 
 /* inizio navbar */
@@ -99,7 +102,9 @@ a{
 }
 /* Fine header */
 
-/* main */
+/* Inizio main */
+
+/* Prima sezione del main  */
 #models{
   padding-top: 40px;
 }
@@ -117,7 +122,6 @@ a{
   margin: auto;
 }
 
-
 .pr_1{
   padding-right: 1rem;
 }
@@ -125,8 +129,24 @@ a{
 .pl_1{
   padding-left: 1rem
 }
+/* Fine prima sezione del main  */
 
-.layover{
-  height: 500px;
-  background-color: rgba(0,0,0,0.5);
+.banner_grandpa{
+  height: 380px;
+  background-image: url("../img/banner_grandpa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.iphone_row{
+  height: 100px;
+  position: relative;
+}
+
+.iphone_row img{
+  width: 250px;
+  position: relative;
+  top: -300px;
+  left: 50%;
+  transform: translateX(-50%);
 }
