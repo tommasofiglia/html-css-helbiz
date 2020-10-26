@@ -315,13 +315,13 @@ footer li{
 
   /* Fine header */
 
-  #models .col-sm-12{
+  #models .col-sm-8{
     padding-right: 0;
     padding-left: 0;
   }
 
-  #app_globe .col-sm-12{
-    margin: 15px 0;
+  #app_globe .col-sm-8{
+    margin-top: 20px;
     padding-right: 0;
     padding-left: 0;
   }
@@ -331,10 +331,12 @@ footer li{
     margin-top: -300px;
   }
 
+  /* Fine Main */
+
   #footer_high , #footer_low{
     text-align: center;
   }
-
+  /* Fine footer */
 }
 
 /* Mediaquery dispositivi medium */
@@ -369,13 +371,13 @@ footer li{
 
   /* Fine header */
 
-  #models .col-md-12{
+  #models .col-md-8{
     padding-right: 0;
     padding-left: 0;
   }
 
-  #app_globe .col-md-12{
-    margin: 15px 0;
+  #app_globe .col-md-8{
+    margin-top: 20px;
     padding-right: 0;
     padding-left: 0;
   }
@@ -384,9 +386,9 @@ footer li{
     width: 250px;
     margin-top: -300px;
   }
-
+  /* Fine main */
   #footer_high , #footer_low{
     text-align: center;
   }
-
+  /* Fine footer */
 }
