@@ -204,3 +204,35 @@ a{
   color: white;
   margin-top: 20px;
 }
+/* Fine terza sezione del main */
+
+/* Quarta sezione del main */
+#app_globe .card{
+  height: 450px;
+  color: white;
+  text-align: center;
+}
+
+#iphone_map{
+  background-color: rgb(46, 60, 73);
+  width: 100%;
+}
+
+#find_us{
+  background-image: url(../img/city.jpg);
+  background-size: cover;
+}
+
+#app_globe a{
+  color: white;
+}
+
+#app_globe h2{
+  padding-top: 30px;
+  font-size: 30px;
+  font-weight: 600;
+}
+/* Fine quarta sezione del main */
+/* Fine del main */
+
+/* Footer */
