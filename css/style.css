@@ -168,7 +168,7 @@ a{
 
 .iphone_row img{
   width: 250px;
-  margin-top: -50%;
+  margin-top: -300px;
 }
 
 .iphone_row h2{
@@ -328,12 +328,65 @@ footer li{
 
   .iphone_row img{
     width: 250px;
-    margin-top: -80%;
+    margin-top: -300px;
   }
 
   #footer_high , #footer_low{
     text-align: center;
   }
 
+}
+
+/* Mediaquery dispositivi medium */
+
+@media all and (min-width: 769px) and (max-width: 1200px) {
+  nav{
+    text-align: left;
+  }
+
+  #logo{
+    width: 70px;
+    padding-left: 3px;
+  }
+
+  .header_menu li{
+    display: inline-block;
+    padding: 0 5px;
+  }
+  .header_menu{
+    text-align: center;
+  }
+
+  .hero_text h1{
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .hero_text p{
+    font-size: 15px;
+  }
+
+  /* Fine header */
+
+  #models .col-md-12{
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #app_globe .col-md-12{
+    margin: 15px 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .iphone_row img{
+    width: 250px;
+    margin-top: -300px;
+  }
+
+  #footer_high , #footer_low{
+    text-align: center;
+  }
 
 }
